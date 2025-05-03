@@ -1,0 +1,24 @@
+{
+  "name": "login-system",
+  "version": "1.0.0",
+  "description": "Simply Login System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./styles/index.css -o ./styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrq-dev/login-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrq-dev/login-system/issues"
+  },
+  "homepage": "https://github.com/jrq-dev/login-system#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  }
+}
